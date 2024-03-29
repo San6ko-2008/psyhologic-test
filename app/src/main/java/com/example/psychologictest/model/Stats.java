@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import lombok.Getter;
+import lombok.ToString;
 
 @Getter
 public class Stats {
@@ -22,20 +23,20 @@ public class Stats {
     private int cholericStat = 0;
     private int melancholicStat = 0;
     
-    public int sanguineInc(){
-        return sanguineStat++;
+    public void sanguineAdd(int stat){
+        sanguineStat += stat;
     }
-    public int phlegmaticInc(){
-        return phlegmaticStat++;
+    public void phlegmaticAdd(int stat){
+        phlegmaticStat += stat;
     }
-    public int cholericInc(){
-        return cholericStat++;
+    public void cholericAdd(int stat){
+        cholericStat += stat;
     }
-    public int melancholicInc(){
-        return melancholicStat++;
+    public void melancholicAdd(int stat){
+        melancholicStat += stat;
     }
 
-    public Map<Temperament, Integer> getTemperament(){
+    public Map<Temperament, Integer> getTemperamentsAsMap(){
         Map<Temperament, Integer> temperament = new HashMap<>();
         temperament.put(Temperament.SANGUINE, sanguineStat);
         temperament.put(Temperament.PHLEGMATIC, phlegmaticStat);

@@ -12,13 +12,34 @@
         android:id="@+id/startTestButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="cursive"
         android:padding="16dp"
         android:text="@string/start"
-        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/todo"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:srcCompat="@drawable/logo" />
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

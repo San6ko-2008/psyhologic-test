@@ -8,8 +8,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class TestActivity extends AppCompatActivity {
+import com.example.psychologictest.handler.TaskHandler;
+import com.example.psychologictest.json.Parser;
+import com.example.psychologictest.model.Task;
 
+import java.util.List;
+
+public class TestActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +25,9 @@ public class TestActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        List<Task> tasks = new Parser(this).parseTasks();
+        TaskHandler handler = new TaskHandler(this, tasks);
+        handler.uploadTask();
     }
 }

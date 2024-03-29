@@ -5,6 +5,77 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main_gradient"
     tools:context=".TestActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/questionView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/question_view"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/agreeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/agree"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/notSureButton"
+        app:layout_constraintEnd_toEndOf="@+id/notSureButton"
+        app:layout_constraintStart_toStartOf="@+id/notSureButton" />
+
+    <Button
+        android:id="@+id/notSureButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#8E8E8E"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/not_sure"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/notAgreeButton"
+        app:layout_constraintEnd_toEndOf="@+id/notAgreeButton"
+        app:layout_constraintStart_toStartOf="@+id/notAgreeButton" />
+
+    <Button
+        android:id="@+id/notAgreeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="#F44336"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/not_agree"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

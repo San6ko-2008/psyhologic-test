@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "question": "САНГВИНИК",
+    "sanguineStat": 10,
+    "phlegmaticStat": 0,
+    "cholericStat": 0,
+    "melancholicStat": 0
+  },
+  {
+    "id": 1,
+    "question": "ФЛЕГМА",
+    "sanguineStat": 0,
+    "phlegmaticStat": 10,
+    "cholericStat": 0,
+    "melancholicStat": 0
+  },
+  {
+    "id": 2,
+    "question": "ЕБАНУТЫЙ",
+    "sanguineStat": 0,
+    "phlegmaticStat": 0,
+    "cholericStat": 10,
+    "melancholicStat": 0
+  },
+  {
+    "id": 3,
+    "question": "НЫТИК",
+    "sanguineStat": 0,
+    "phlegmaticStat": 0,
+    "cholericStat": 0,
+    "melancholicStat": 10
+  }
+]
