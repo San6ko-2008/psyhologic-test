@@ -1,34 +1,242 @@
 [
   {
-    "id": 0,
-    "question": "САНГВИНИК",
-    "sanguineStat": 10,
-    "phlegmaticStat": 0,
-    "cholericStat": 0,
-    "melancholicStat": 0
-  },
-  {
     "id": 1,
-    "question": "ФЛЕГМА",
-    "sanguineStat": 0,
-    "phlegmaticStat": 10,
-    "cholericStat": 0,
-    "melancholicStat": 0
+    "question": "Вам часто потрібна допомога інших людей?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": -1,
+    "melancholicStat": 1
   },
   {
     "id": 2,
-    "question": "ЕБАНУТЫЙ",
-    "sanguineStat": 0,
-    "phlegmaticStat": 0,
-    "cholericStat": 10,
-    "melancholicStat": 0
+    "question": "Чи швидко ви відповідаєте на поставлене запитання?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
   },
   {
     "id": 3,
-    "question": "НЫТИК",
-    "sanguineStat": 0,
-    "phlegmaticStat": 0,
-    "cholericStat": 0,
-    "melancholicStat": 10
+    "question": "Чи можете ви розсердитися чи бути дратівливим?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 4,
+    "question": "Ваш настрій часто змінюється?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 5,
+    "question": "Ви іноді віддаєте перевагу самотності ніж зустрічі з друзями?",
+    "sanguineStat": -1,
+    "phlegmaticStat": 1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 6,
+    "question": "Чи турбують вас перед сном різні думки, що заважають заснути?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 7,
+    "question": "Ви завжди приходите вчасно на роботу чи зустріч із кимось?",
+    "sanguineStat": -1,
+    "phlegmaticStat": 1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 8,
+    "question": "Чи любите ви пожартувати з інших?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 9,
+    "question": "Чи буває вам сумно без причини?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 10,
+    "question": "Чи можна назвати вас веселою людиною?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 11,
+    "question": "Ви порушували правила?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 12,
+    "question": "Чи трапляється, що вас дратує все довкола?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 13,
+    "question": "Чи подобається вам виконувати роботу, де все потрібно робити швидко?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 14,
+    "question": "Чи виникають у вас переживання щодо поганих подій, які могли статися, але не сталися?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 15,
+    "question": "Чи зуміли б ви внести пожвавлення в нудну компанію?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 16,
+    "question": "За бажання познайомитися, ви завжди можете першим розпочати розмову?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 17,
+    "question": "Ви швидкі у прийнятті рішень?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 18,
+    "question": "Чи доводилося вам брехати?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 19,
+    "question": "Чи легко вас зачіпає критика ваших недоліків чи вашої роботи?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 20,
+    "question": "Чи подобається вам жартувати та веселити ваших друзів?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 21,
+    "question": "Ви іноді втомлюєтеся без особливої на те причини?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 22,
+    "question": "Чи часто у вас виникає відчуття, що ви в чомусь винні?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 23,
+    "question": "Загалом ви завжди задоволені?",
+    "sanguineStat": 1,
+    "phlegmaticStat": 1,
+    "cholericStat": 1,
+    "melancholicStat": -2
+  },
+  {
+    "id": 24,
+    "question": "Ви більш вразливі за інших?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 25,
+    "question": "Чи швидко ви зазвичай дієте та кажете, чи не витрачаєте багато часу на обмірковування?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 26,
+    "question": "Чи буває коли-небудь, що, розлютившись, ви виходите з себе?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": 2,
+    "melancholicStat": -1
+  },
+  {
+    "id": 27,
+    "question": "Чи виникає у вас почуття, що все набридло?",
+    "sanguineStat": -1,
+    "phlegmaticStat": -1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 28,
+    "question": "Ви іноді хвалитесь перед іншими?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
+  },
+  {
+    "id": 29,
+    "question": "Опинившись у новому колективі, ви перебуваєте в тіні, придивляєтеся до людей?",
+    "sanguineStat": -1,
+    "phlegmaticStat": 1,
+    "cholericStat": -1,
+    "melancholicStat": 1
+  },
+  {
+    "id": 30,
+    "question": "Чи подобається вам перебувати у веселій та галасливій компанії?",
+    "sanguineStat": 1,
+    "phlegmaticStat": -1,
+    "cholericStat": 1,
+    "melancholicStat": -1
   }
 ]

@@ -5,7 +5,6 @@ import android.util.Log;
 
 import com.example.psychologictest.R;
 import com.example.psychologictest.model.Task;
-import com.example.psychologictest.model.Temperament;
 import com.example.psychologictest.model.TemperamentDescription;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -13,7 +12,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
-import java.util.Map;
 
 import lombok.RequiredArgsConstructor;
 

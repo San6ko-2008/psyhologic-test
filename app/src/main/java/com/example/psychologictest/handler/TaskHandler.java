@@ -1,5 +1,6 @@
 package com.example.psychologictest.handler;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,11 +21,16 @@ public class TaskHandler {
     private final Stats stats = Stats.getInstance();
     private int position = 0;
 
+    @SuppressLint("SetTextI18n")
     public void uploadTask(){
         if (position < tasks.size()){
             Task task = tasks.get(position);
+
             TextView questionView = activity.findViewById(R.id.questionView);
             questionView.setText(task.getQuestion());
+
+            TextView textNumber = activity.findViewById(R.id.textNumber);
+            textNumber.setText("Питання №" + task.getId());
 
             activity.findViewById(R.id.agreeButton).setOnClickListener(v -> {
                 stats.cholericAdd(task.getCholericStat());
