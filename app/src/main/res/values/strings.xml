@@ -3,7 +3,7 @@
     <string name="start">ПОЧАТИ ТЕСТУВАННЯ</string>
     <string name="question_view">Question View</string>
     <string name="not_sure">Не знаю</string>
-    <string name="not_agree">Не згоден</string>
-    <string name="agree">Згоден</string>
+    <string name="not_agree">Ні</string>
+    <string name="agree">Так</string>
     <string name="todo">TODO</string>
 </resources>
