@@ -7,8 +7,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.psychologictest.R;
-import com.example.psychologictest.model.Stats;
-import com.example.psychologictest.model.Temperament;
+import com.example.psychologictest.data.Stats;
+import com.example.psychologictest.data.Temperament;
 import com.example.psychologictest.model.TemperamentDescription;
 
 import java.util.Map;

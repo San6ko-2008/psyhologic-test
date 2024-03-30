@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.psychologictest.R;
 import com.example.psychologictest.ResultActivity;
-import com.example.psychologictest.model.Stats;
+import com.example.psychologictest.data.Stats;
 import com.example.psychologictest.model.Task;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.psychologictest.model;
+package com.example.psychologictest.data;
 
 import java.util.HashMap;
 import java.util.Map;
